@@ -23,3 +23,21 @@
 .vibration__button:not(:last-child) {
   margin-right: 20px;
 }
+
+@media only screen and (max-width: 320px) {
+  .vibration {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .vibration__button {
+    width: 100%;
+    max-width: 300px;
+
+    margin-bottom: 10px;
+  }
+
+  .vibration__button:not(:last-child) {
+    margin-right: 0px;
+  }
+}
