@@ -1,0 +1,25 @@
+.vibration {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 220px;
+}
+
+.vibration__button {
+  /* Margin, paddings */
+  padding: 9px 15px;
+
+  font-size: 20px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.vibration__button:hover {
+  background-color: #cccccc;
+}
+
+.vibration__button:not(:last-child) {
+  margin-right: 20px;
+}
